@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navegacion{
+    background-color: #142738;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+header nav{
+    text-align: right;
+}
+.navegacion__paginas{
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+}
+.contenido{
+    background-color: #ca1444;
+}
+.titulo{
+    font-family:'Fascinate', cursive;
+    font-size: 80px;
+    text-align: center;
+    color: #f8dac2;
+}
+.subtitulo{
+    font-family:'Fascinate', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: #f8dac2;
+}
+.main__section{
+    background-color: #142738;
+}
+.imagenPortada{
+    width:100%;
+    grid-column: 1/3;
+}
+.quienesSomos__h2{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 60px;
+    margin: 40px;
+    grid-column: 1/3;
+}
+.quienesSomos{
+    font-family: 'Bebas Neue', cursive;
+    color: #f8dac2;
+    font-size: 35px;
+    grid-column: 1/3;
+}
+.iframe{
+    padding: 25px;
+}
+.main__section__promociones{
+    background-color: #142738;
+    border: #ca1444 solid 50px;
+}
+.promociones{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: #f8dac2;
+    text-align: center;
+}
+.imagen__promociones{
+    width: 600px;
+    height: 400px;
+    padding: 50px;
+    margin-left: 20px;
+}
+.main__section__promociones__h3{
+    font-family: 'Bebas Neue', cursive;
+    color: #f8dac2;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.contactanos{
+    text-align: justify;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+.main__h3{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #142738;
+    color: white;
+    font-size: 55px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.main__h4{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #142738;
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+}.main__section__h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    color: #f8dac2;
+    padding-top: 25px;
+    grid-column: 1/5;
+}
+.main__section__p{
+    font-family: 'Bebas Neue', cursive;
+    color: #ca1444;
+    font-size: 30px;
+    grid-column: 1/5;
+    padding: 15px;
+
+}
+.img__vinosYlicores{
+    width: 225px;
+    height: 225px;
+}
+.paquetes{
+    display: inline;
+    font-size: 30px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    padding: 200px;
+}
+.paquetesImagenes{
+    width: 300px;
+    height: 300px;
+    padding: 30px 100px;
+    background-color: #ca1444;
+}
+.promocionesImagenes{
+    width: 300px;
+    height: 300px;
+    margin: 10px 40px;
+}
+.paquetes__promociones{
+    display: inline-block;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    margin:10px 100px;
+}
+.paquetesDomicilio{
+    font-family: 'Bebas Neue', cursive;
+    color:#f8dac2;
+    font-size: 40px;
+    padding-left: 20px;
+}
+.promocionDia{
+    font-family: 'Bebas Neue', cursive;
+    color:#f8dac2;
+    font-size: 40px;
+    padding-left: 20px;
+}
+.section__h3{
+    font-family: 'Bebas Neue', cursive;
+    color:#f8dac2;
+    font-size: 40px;
+    padding-left: 20px;
+}
+.snacks{
+    display: inline-block;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    margin:10px 130px;
+}
+.snacks__{
+    display: inline-block;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    margin:10px 100px;
+}
+.snacks__imagenes{
+    width: 300px;
+    height: 300px;
+    margin: 10px 40px;
+}
+.formulario{
+    background-color: #142738;
+}
+.legend{
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    color: #f8dac2;
+}
+.listaFormulario{
+    color: #ca1444;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding: 15px;
+}
+.label{
+    padding-right: 10px;
+}
+.input{
+    font-size: 25px;
+}
+.enviar{
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px;
+    font-size: 25px;
+    width: 100px;
+}
+.section__p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #f8dac2;
+    text-align: center;
+}
+.grid__container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #ca1444;
+}
+.grid__container h3{
+    grid-column: 1/6;
+    font-size: 40px;
+    color: white;
+    margin-left: 10px;
+}
+.grid__container a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.grid__container p{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.gridVinosLicores{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+}
+@media screen and (max-width:768px){
+    .gridVinosLicores{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto auto auto;
+        justify-items: center;
+        gap: 10px;
+    }
+    .main__section__h3{
+        grid-column: 1/3;
+    }
+    .main__section__p{
+        grid-column: 1/3;
+    }
+}
+@media screen and (max-width:480px){
+    .gridVinosLicores{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto auto auto;
+        justify-items: center;
+        gap: 10px;
+    }
+    .main__section__h3{
+        grid-column: 1/3;
+    }
+    .main__section__p{
+        grid-column: 1/3;
+    }.img__vinosYlicores{
+        grid-column: 1/3;
+    }
+}
+.ubicanos{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    grid-column: 1/3;
+    font-size: 60px;
+}
+.gridPrincipal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, auto);
+    justify-items: center;
+    gap: 10px;
+}
+@media screen and (max-width:480px){
+    .gridPrincipal{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        justify-items: center;
+        gap: 10px;
+    }
+    .iframe{
+        grid-column: 1/3;
+        width: 100%;
+    }
+}
