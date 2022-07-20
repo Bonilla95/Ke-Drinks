@@ -109,25 +109,26 @@
     font-size: 30px;
     color: white;
     font-family: 'Bebas Neue', cursive;
-    padding: 200px;
+    margin: 160px;
 }
 .paquetesImagenes{
     width: 300px;
     height: 300px;
     padding: 30px 100px;
+    margin: 10px 70px;
     background-color: #ca1444;
 }
 .promocionesImagenes{
-    width: 300px;
+    width: 250px;
     height: 300px;
-    margin: 10px 40px;
+    margin: 10px 35px;
 }
 .paquetes__promociones{
     display: inline-block;
     color: white;
     font-family: 'Bebas Neue', cursive;
     font-size: 30px;
-    margin:10px 100px;
+    margin:10px 60px;
 }
 .paquetesDomicilio{
     font-family: 'Bebas Neue', cursive;
@@ -152,19 +153,19 @@
     color: white;
     font-family: 'Bebas Neue', cursive;
     font-size: 30px;
-    margin:10px 130px;
+    margin:10px 100px;
 }
 .snacks__{
     display: inline-block;
     color: white;
     font-family: 'Bebas Neue', cursive;
     font-size: 30px;
-    margin:10px 100px;
+    margin:10px 80px;
 }
 .snacks__imagenes{
     width: 300px;
     height: 300px;
-    margin: 10px 40px;
+    margin: 10px 20px;
 }
 .formulario{
     background-color: #142738;
@@ -272,6 +273,21 @@
     justify-items: center;
     gap: 10px;
 }
+@media screen and (max-width:768px){
+    .gridPrincipal{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        justify-items: center;
+        gap: 10px;
+    }
+    .iframe{
+        grid-column: 1/3;
+        width: 100%;
+    }
+    .imagen__promociones{
+        width: 100%;
+    }
+}
 @media screen and (max-width:480px){
     .gridPrincipal{
         grid-template-columns: 1fr;
@@ -281,6 +297,9 @@
     }
     .iframe{
         grid-column: 1/3;
+        width: 100%;
+    }
+    .imagen__promociones{
         width: 100%;
     }
 }
